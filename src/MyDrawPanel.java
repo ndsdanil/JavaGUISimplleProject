@@ -7,7 +7,7 @@ public class MyDrawPanel extends JPanel{
         g.setColor(getRandomColor());
         g.fillRect(0,0,this.getWidth(), this.getHeight());
         g.setColor(getRandomColor());
-        g.fillOval(70, 70, 100, 100);}
+        g.fillOval(70, 50, 100, 100);}
     public Color getRandomColor(){
         int red = (int) (Math.random() * 255);
         int green = (int) (Math.random() * 255);
